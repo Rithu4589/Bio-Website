@@ -13,3 +13,9 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+.flex-container {
+  display: flex;
+  justify-content: center; /* Horizontally centers the image */
+  align-items: center;     /* Vertically centers the image */
+  height: 100vh;           /* Optional: takes up full screen height */
+}
