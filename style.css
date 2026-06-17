@@ -1,21 +1,91 @@
-body {
-  background-color: lightblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+main {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h1 {
-  color:red ;
-  text-align: center;
-  
+    text-align: center;
 }
 
-p {
-  font-family: verdana;
-  font-size: 20px;
+/* NAVBAR */
+.navbar ul {
+    list-style: none;
+    background-color: maroon;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
-.flex-container {
-  display: flex;
-  justify-content: center; /* Horizontally centers the image */
-  align-items: center;     /* Vertically centers the image */
-  height: 100vh;           /* Optional: takes up full screen height */
+
+.navbar li {
+    /* flex handles layout, so no float needed */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: darkred;
+}
+
+/* TOP ICONS */
+.top-icons {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+/* BODY */
+body {
+    min-height: 100vh;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+/* SEARCH BOX */
+.box {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box input {
+    width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: 0.8s;
+    font-weight: 500;
+}
+
+.box:hover input {
+    width: 150px;
+}
+
+.box a .fas {
+    color: white;
+    font-size: 18px;
+}
+img {
+    display: block;
+    margin: auto;
 }
