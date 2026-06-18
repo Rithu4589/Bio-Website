@@ -1,3 +1,9 @@
+ .body{
+  border-style: solid;
+  border-color: red;
+}
+ 
+  
 .navbar ul {
     list-style: none;
     background-color: maroon;
@@ -22,22 +28,26 @@
 
 .navbar a:hover {
     background-color: darkred;
+    
 }
 
 .navbar{
     background-color:rgb(49, 117, 176);
 }
 .title{
-     background-color:rgb(188, 149, 77);
-
+     background-color:white;
+     text-align: center;
 }
+
 .basicInfo{
      background-color:rgb(161, 231, 144);
+}
+.center {
+ background-color:white;
+  text-align: center; 
+  font-size: 10px;
 }
 .guide{
      background-color:rgb(212, 135, 207);
 }
-
-
-
 
